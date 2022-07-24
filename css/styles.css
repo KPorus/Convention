@@ -13,6 +13,8 @@ ol, ul {
     padding-left: 0;
 }
 
+/* ============= nav part start ================ */
+
 .logo {
     font-weight: 700;
     font-size: 1.2em;
@@ -29,6 +31,8 @@ ol, ul {
     line-height: 24px;
 }
 
+
+/* ============ banner part start =========== */
 
 .carousel-caption {
     position: absolute;
@@ -89,6 +93,69 @@ ol, ul {
     color: #0A0826;
 }
 
+/* =============== package part start =============== */
+
+#package{
+    margin-bottom: 3em;
+}
+
+.p-head{
+    margin-bottom: 2em;
+}
+
 .c{
     border: none !important;
+    transition: 300ms ease;
+    -webkit-transition: 300ms ease;
+    -moz-transition: 300ms ease;
+    -ms-transition: 300ms ease;
+    -o-transition: 300ms ease;
 }
+.b{
+    background: rgba(244, 150, 210, 0.185);
+    mix-blend-mode: normal;
+    border-radius: 24px;
+    color: #3F87F5;
+}
+
+i{
+    color: #3E3E3E;
+}
+
+span{
+    margin-left: 1em;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 22px;
+    color: #848199;
+
+}
+
+.c:hover{
+    transform: translateY(-19px);
+    -webkit-transform: translateY(-19px);
+    -moz-transform: translateY(-19px);
+    -ms-transform: translateY(-19px);
+    -o-transform: translateY(-19px);
+    background-color: #3F87F5;
+    color: aliceblue;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.c:hover a{
+    background-color: aliceblue;
+    
+}
+
+.c:hover i{
+    color: aliceblue;
+}
+
+.c:hover span{
+    color: aliceblue;
+}
+
+
+/* ============= client part start ================= */\

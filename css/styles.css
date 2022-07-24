@@ -9,6 +9,14 @@
     font-size: 16px;
 }
 
+.d-none {
+    display: block!important;
+}
+
+.navbar-toggler-icon {
+    margin-left:0 !important;
+}
+
 ol, ul {
     padding-left: 0;
 }
@@ -158,4 +166,70 @@ span{
 }
 
 
-/* ============= client part start ================= */\
+/* ============= client part start ================= */
+#client{
+    margin-bottom: 3em;
+}
+
+.img {
+    position: relative;
+    left: 31%;
+}
+
+.c-t{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    color: #6C6C6C;
+}
+
+.c2{
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.13) !important;
+    border-radius: 5px;
+}
+
+/* ======================= QnA part start ================ */
+
+#qna{
+    margin-bottom: 3em;
+}
+
+.acor{
+    margin-top: 4em;
+}
+
+.accordion-item {
+    color: var(--bs-accordion-color);
+    background-color: var(--bs-accordion-bg);
+    border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
+    margin-bottom: 2em !important;
+}
+
+.item{
+    border: 1px solid #D5E5FB !important;
+    border-radius: 5px;
+}
+
+/* ============= footer part start ================ */
+
+#footer{
+    width: 100%;
+    background: #0B0D17;
+}
+
+.footer-text {
+    padding: 108em 0 9em 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1px;
+    line-height: 24px;
+    color: #D9DBE1;
+}
+
+.icon img {
+    position: relative;
+    top: -29px;
+    width: 40%;
+}

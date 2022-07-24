@@ -9,7 +9,7 @@
 
     .img {
         position: relative;
-        left: 40%;
+        left: 33%;
     }
 
     .c {
@@ -330,7 +330,7 @@
 
     .img {
         position: relative;
-        left: 40%;
+        left: 43%;
     }
 
     .c {
@@ -435,7 +435,7 @@
 
     .img {
         position: relative;
-        left: 40%;
+        left: 32%;
     }
 
     .c {
@@ -525,6 +525,14 @@
         /* padding-bottom: 5.125rem !important; */
         color: #fff;
         text-align: center;
+    }
+    
+}
+@media (min-width:1201px){
+
+    .img {
+        position: relative;
+        left: 36%;
     }
     
 }
